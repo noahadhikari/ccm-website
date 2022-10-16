@@ -1,0 +1,188 @@
+#events {
+	width: 22.5em;
+	height: 100vh;
+	position: fixed;
+	left: 12em;
+	overflow: scroll;
+	/*
+	position: fixed;
+	top: 0;
+	left: 12em;*/
+}
+
+#events::-webkit-scrollbar {
+	width: 8px;
+	height: 4px;
+	background: #ffffff;
+}
+
+#events::-webkit-scrollbar-thumb {
+	background-color: #ededed;
+	-webkit-border-radius: 1ex;
+	border: 1px solid #ffffff;
+}
+
+#events:hover::-webkit-scrollbar-thumb {
+	background-color: #dcdcdc;
+}
+
+.day {
+	padding: .8em 0;
+	border-top: 1px solid #ededed;
+}
+
+.date {
+	text-transform: uppercase;	
+	font-family: 'new_ciclegordita';
+}
+
+.event {
+    width: 100%;
+    padding: 0.5em 0;
+    overflow: hidden;
+    font-size: 0.8em;
+    line-height: 125%;
+    padding-left: .8em;
+	color: #c1c1c1;
+    background-color: #333333;
+}
+
+.event:hover {
+    background-color: #454545;
+}
+
+.event-type {
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.time {
+}
+
+.location {
+}
+
+.location:hover {
+}
+
+#map_container {
+/*	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+*/
+	position: static;
+	margin-left: 22.5em;
+	height: 100vh;
+}
+
+.infoWindow {
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 1.2em;
+	height: 2.3em;
+	line-height: 110%;
+	letter-spacing: 0.05em;
+}
+
+/*.aseb:before {
+	content: "Alzheimer's Services of the East Bay";
+}
+
+.aseb:after {
+	content: "2330 Channing Ave";
+}
+
+.ashby:before {
+	content: "Ashby Care Center";
+}
+
+.ashby:after {
+	content: "2270 Ashby Ave";
+}
+
+.berkeley-pines:before {
+	content: "Berkeley Pines";
+}
+
+.berkeley-pines:after {
+	content: "2223 Ashby Ave";
+}
+
+.berkshire:before {
+	content: "Berkshire Convalescent";
+}
+
+.berkshire:after {
+	content: "2235 Sacramento St";
+}
+
+.chaparral-house:before {
+	content: "Chaparral House";
+}
+
+.chaparral-house:after {
+	content: "1309 Allston Way";
+}
+
+.redwood-gardens:before {
+	content: "Redwood Gardens";
+}
+
+.redwood-gardens:after {
+	content: "2951 Derby St";
+}
+
+.elmwood:before {
+	content: "Elmwood Convalescent Hospital";
+}
+
+.elmwood:after {
+	content: "2829 Shattuck Ave";
+}
+
+.kyakameena:before {
+	content: "Kyakameena Skilled Nursing Facility";
+}
+
+.kyakameena:after {
+	content: "2131 Carleton St";
+}
+
+.morrison-hall:before {
+	content: "Morrison Hall Lounge";
+}*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) , all and (max-width: 600px) {
+
+    #map_container {
+    	position: fixed;
+    	width: 100%;
+    	height: 55vh;
+    	top: 3.2em;
+    	left: 0;
+    	z-index: 0;
+    	margin-left: 0;
+    }
+
+    #events {
+    	width: 100%;
+    	float: left;
+    	margin: 55vh 0 0 0;
+    	left: 0;
+    }
+
+}
+
+ @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    #map_container {
+     	display: none;
+     }
+
+    #events {
+    	margin-top: 1.3em;
+    	padding-top: 0;
+    }
+
+}

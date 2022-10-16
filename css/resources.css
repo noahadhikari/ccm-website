@@ -1,0 +1,75 @@
+/* #bg {
+    background: 50% 35%/cover no-repeat url('../assets/photos/intentionally_missing_file.jpg');
+    height: 70vh;
+    position: fixed;
+    top: 0;
+    left: 12em;
+    z-index: -2;
+} */
+
+#links {
+    width: 100%;
+    margin-top: 0vh;
+    color: #0d0d0d;
+}
+
+#links a:link h2, #links a:visited h2 {
+    color: #222;
+}
+
+#links a:hover h2 {
+    color: #000;
+}
+
+.link {
+    display: block;
+    padding: 1.3em 1.5em;
+    width: 100%;
+    margin: 0;
+    /* vertical-align: top; */
+}
+
+.link:hover {
+    background-color: #dfdfdf;
+}
+
+.box a:link, .box a:visited {
+    color: #0d0d0d;
+    font-family: 'new_ciclesemi';
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) , all and (max-width: 600px) {
+
+    #bg {
+        top: 3.3em;
+        left: 0;
+        width: 100%;
+        height: 60vh;
+    }
+
+    #links {
+        margin-top: 60vh;
+    }
+
+    .link {
+        width: 100%;
+        padding: 1.3em 1.5em;
+    }
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    #bg {
+        top: 3.25em;
+        height: 15em;
+    }
+
+    #links {
+        margin-top: 15em;
+    }
+    
+}

@@ -1,0 +1,54 @@
+em {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#bg {
+    background: center center/cover no-repeat url('../assets/photos/IMG_4513.jpg');
+    height: 70vh;
+    position: fixed;
+    top: 0;
+    left: 12em;
+    z-index: -2;
+}
+
+#about {
+    width: 100%;
+    margin-top: 70vh;
+}
+
+#faq {
+	width: 100%;
+}
+
+#events:hover {
+	color: #000;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) , all and (max-width: 600px) {
+
+	#bg {
+		top: 3.3em;
+		left: 0;
+		width: 100%;
+		height: 60vh;
+	}
+
+	#about {
+		margin-top: 60vh;
+	}
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+	#bg {
+		top: 3.25em;
+		height: 15em;
+	}
+
+	#about {
+		margin-top: 15em;
+	}
+
+}

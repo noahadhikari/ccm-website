@@ -1,0 +1,45 @@
+#bg {
+    background: center center/cover no-repeat url('../assets/photos/rejects/7.jpg');
+    height: 60vh;
+    position: fixed;
+    top: 0;
+    left: 12em;
+    z-index: -2;
+}
+
+#mc_embed_signup {
+	margin-top: 60vh;
+	width: 100%;
+}
+
+h2 {
+	text-transform: none;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) , all and (max-width: 600px) {
+
+	#bg {
+		top: 3.3em;
+		left: 0;
+		width: 100%;
+		height: 60vh;
+	}
+
+	#mc_embed_signup {
+		margin-top: 60vh;
+	}
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+	#bg {
+		top: 3.25em;
+		height: 15em;
+	}
+
+	#mc_embed_signup {
+		margin-top: 15em;
+	}
+
+}
