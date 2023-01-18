@@ -9,22 +9,12 @@
   /*var eventList = []; */
   var eventList = [
     {
-      "date": "2022-10-28",
+      "date": "2023-01-21",
       "events": [
         {
-          "eventType": "CCM & LPS Open Mic",
-          "time": "7:30 PM",
-          "location": "morrison-125"
-        },
-      ]
-    },
-    {
-      "date": "2022-11-05",
-      "events": [
-        {
-          "eventType": "Concert",
-          "time": "3:00 PM",
-          "location": "silverado"
+          "eventType": "Jam Session",
+          "time": "1:00 PM",
+          "location": "morrison-hall"
         },
       ]
     },
